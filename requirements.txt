@@ -1,0 +1,7 @@
+peewee
+pyit2fls==0.7.9
+pandas
+psutil
+xlwt
+scikit-learn
+tensorflow
