@@ -3,7 +3,6 @@ import os
 import numpy as np
 
 from functions import CEC_functions
-from matAgent.hrlepso import HrlepsoSwarm
 from evaluate.common import *
 
 
@@ -51,7 +50,7 @@ def evluate_optimizer(task):
 
 
 if __name__ == '__main__':
-    config = {'dim': 10, 'class': HrlepsoSwarm,
+    config = {'dim': 10, 'class': None,
               'model': 'D:\\develop\\swam\\ieeeaccess - 副本 - 副本 - 副本 - 副本\\rl\\train0\\ddpg_actor_episode100.h5',
               'npart': 20, 'f_num': 1, 'task': 280, 'task_md5': 'fbd5109e056c85dd0c82dc0172ed1aab'}
     evluate_optimizer(config)

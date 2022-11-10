@@ -40,14 +40,14 @@ def all_tasks_generate():
     evaluate_optimizers = [PsoSwarm]
 
     base_evaluate_optimizers = [PsoSwarm]  # 都用一样的
-    runtimes = 10
-    separate_trains = [False, True]
+    runtimes = 1
+    separate_trains = [False, ]
     # groups = [1, 3, 5, 7, 9]
     groups = [5]
-    train_max_episode = 600
+    train_max_episode = 2
     train_max_steps = train_max_episode * 100
     dims = [30]
-    evaluate_function = list(range(1, 29, 1))
+    evaluate_function = list(range(1, 2, 1))
     train_times = 1
 
     task = {'type': 'top',

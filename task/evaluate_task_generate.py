@@ -1,20 +1,5 @@
-from matAgent.awpso import AwpsoSwarm
-from matAgent.clpso import ClpsoSwarm
-from matAgent.epso import EpsoSwarm
-from matAgent.fdrpso import FdrpsoSwarm
-from matAgent.hpso_tvac import HpsotvacSwarm
-from matAgent.lips import LipsSwarm
-from matAgent.olpso import OlpsoSwarm
-from matAgent.pppso import PppsoSwarm
 from matAgent.pso import PsoSwarm
-from matAgent.shpso import ShpsoSwarm
-from matAgent.hrlepso_base import HrlepsoBaseSwarm
-from matAgent.swarm.gwo import GwoSwarm
 
-from matAgent.adaptionPso.f1pso import FT1PsoSwarm
-from matAgent.adaptionPso.f2pso import FT2PsoSwarm
-from matAgent.adaptionPso.success_history_pso import SuccessHistoryPsoSwarm
-from matAgent.adaptionPso.qlpso import QlpsoSwarm
 
 from utils.db.db import get_optimizer_train_result
 
